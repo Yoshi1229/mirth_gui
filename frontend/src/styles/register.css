@@ -1,0 +1,116 @@
+@font-face { font-family: itim; src: url('itim-cyrillic.otf'); } 
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: itim, sans-serif;
+}
+
+.register-container h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  flex: 1;
+}
+
+input:focus {
+  border-color: #7a42f4;
+  box-shadow: 0 0 5px rgba(122, 66, 244, 0.5);
+}
+
+.register-button {
+  padding: 12px;
+  font-size: 1rem;
+  font-family: itim, sans-serif;
+  border: none;
+  border-radius: 5px;
+  background-color: #7e53e9;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.register-button:hover {
+  background-color: #5e33c9;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p a {
+  color: #7a42f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.brand-header {
+  width: 100%;
+  background-color: #c5b4f7;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: itim, sans-serif;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profile-picture input {
+  display: none;
+}
+
+.profile-picture img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  object-fit: cover;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.profile-picture label {
+  color: #7a42f4;
+  cursor: pointer;
+  font-weight: bold;
+}

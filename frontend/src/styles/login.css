@@ -1,0 +1,82 @@
+@font-face { font-family: itim; src: url('itim-cyrillic.otf'); } 
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: itim, sans-serif;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4e4e4e;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #7a42f4;
+  box-shadow: 0 0 5px rgba(122, 66, 244, 0.5);
+}
+
+.login-button {
+  padding: 10px;
+  font-size: 1rem;
+  font-family: itim, sans-serif;
+  border: none;
+  border-radius: 5px;
+  background-color: #7e53e9;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0 auto;
+  width: 100px;
+}
+
+.login-button:hover {
+  background-color: #5e33c9;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+p a {
+  color: #7a42f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.brand-header {
+  width: 100%;
+  background-color: #c5b4f7;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 3rem;
+  font-family: itim, sans-serif;
+  font-weight: bold;
+}
